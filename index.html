@@ -3,13 +3,98 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adminly — Informations légales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adminly – Informations légales</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f8fc;
+      color: #243247;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2563eb;
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 38px;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 24px;
+      margin-bottom: 18px;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+    }
+
+    .card h2 { margin-top: 0; }
+
+    a {
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #64748b;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bienvenue sur Adminly 💙</h1>
-  <p>Le site officiel des informations légales d'Adminly.</p>
-  <p>La politique de confidentialité et les conditions d'utilisation seront bientôt disponibles.</p>
-  <p>Contact : adminly.contact@gmail.com</p>
+
+  <header>
+    <h1>Adminly</h1>
+    <p>Vos documents et vos rappels, simplement.</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Politique de confidentialité</h2>
+      <p>Découvrez comment Adminly protège vos données personnelles.</p>
+      <a href="confidentialite.html">Consulter la politique</a>
+    </div>
+
+    <div class="card">
+      <h2>Conditions générales d'utilisation</h2>
+      <p>Consultez les règles d'utilisation de l'application.</p>
+      <a href="cgu.html">Consulter les CGU</a>
+    </div>
+
+    <div class="card">
+      <h2>Mentions légales</h2>
+      <p>Retrouvez les informations légales concernant Adminly.</p>
+      <a href="mentions-legales.html">Consulter les mentions légales</a>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Une question concernant Adminly ?</p>
+      <a href="mailto:adminly.contact@gmail.com">
+        adminly.contact@gmail.com
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Adminly – Tous droits réservés.
+  </footer>
+
 </body>
 </html>
